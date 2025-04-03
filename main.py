@@ -1,4 +1,4 @@
-from stats import word_count
+from stats import count_words
 
 def get_book_text():
     with open("books/frankenstein.txt") as f:
